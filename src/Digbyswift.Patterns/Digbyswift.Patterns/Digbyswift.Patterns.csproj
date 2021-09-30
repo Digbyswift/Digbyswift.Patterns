@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net462;netstandard2.0</TargetFrameworks>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Digbyswift.Patterns</Title>
+        <Authors>Digbyswift Ltd</Authors>
+        <Copyright>Copyright © Digbyswift Ltd</Copyright>
+        <PackageProjectUrl>https://github.com/digbyswift/Digbyswift.Patterns</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/digbyswift/Digbyswift.Patterns/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/digbyswift/Digbyswift.Patterns</RepositoryUrl>
+        <PackageTags>c#</PackageTags>
+        <Company>Digbyswift Ltd</Company>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+    </PropertyGroup>
+
+</Project>
