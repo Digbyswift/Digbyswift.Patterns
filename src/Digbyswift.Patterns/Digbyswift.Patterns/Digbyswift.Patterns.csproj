@@ -11,7 +11,19 @@
         <RepositoryUrl>https://github.com/digbyswift/Digbyswift.Patterns</RepositoryUrl>
         <PackageTags>c#</PackageTags>
         <Company>Digbyswift Ltd</Company>
-        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.1</AssemblyVersion>
+        <LangVersion>8</LangVersion>
+        <PackageVersion>1.0.1</PackageVersion>
+        <PackageIcon>package-icon.png</PackageIcon>
+        <FileVersion>1.0.1</FileVersion>
     </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="..\..\..\package-icon.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+        <Link>package-icon.png</Link>
+      </None>
+    </ItemGroup>
 
 </Project>
