@@ -5,7 +5,7 @@ namespace Digbyswift.Patterns.Template
 {
     public abstract class AsyncTaskBase<T>
     {
-        public async Task RunAsync(T context = default)
+        public async Task RunAsync(T context)
         {
             try
             {

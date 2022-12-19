@@ -7,23 +7,25 @@
         <Authors>Digbyswift Ltd</Authors>
         <Copyright>Copyright © Digbyswift Ltd</Copyright>
         <PackageProjectUrl>https://github.com/digbyswift/Digbyswift.Patterns</PackageProjectUrl>
-        <PackageLicenseUrl>https://github.com/digbyswift/Digbyswift.Patterns/blob/master/LICENSE</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/digbyswift/Digbyswift.Patterns</RepositoryUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageTags>c#</PackageTags>
-        <Company>Digbyswift Ltd</Company>
-        <AssemblyVersion>1.0.1</AssemblyVersion>
-        <LangVersion>8</LangVersion>
-        <PackageVersion>1.0.1</PackageVersion>
+        <AssemblyVersion>1.0.3</AssemblyVersion>
+        <PackageVersion>1.0.3</PackageVersion>
+        <FileVersion>1.0.3</FileVersion>
+        <LangVersion>10</LangVersion>
         <PackageIcon>package-icon.png</PackageIcon>
-        <FileVersion>1.0.1</FileVersion>
+        <PackageIconUrl>package-icon.png</PackageIconUrl>
+        <Nullable>enable</Nullable>
     </PropertyGroup>
-
     <ItemGroup>
-      <None Include="..\..\..\package-icon.png">
-        <Pack>True</Pack>
-        <PackagePath></PackagePath>
-        <Link>package-icon.png</Link>
-      </None>
+        <None Include="../../../package-icon.png" Pack="true" PackagePath=""/>
     </ItemGroup>
-
+    <ItemGroup>
+        <None Include="../../../LICENSE" Pack="true" PackagePath=""/>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="../../../README.md" Pack="true" PackagePath=""/>
+    </ItemGroup>
 </Project>
